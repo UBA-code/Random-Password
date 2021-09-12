@@ -1,0 +1,23 @@
+.main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main .card .pass-area {
+    font-size: 30px;
+    background-color: #eee;
+    color: red;
+    padding: 10px;
+    margin-bottom: 10px;
+border-radius: 10px;
+}
+.main .card .btn {
+    user-select: none;
+}
